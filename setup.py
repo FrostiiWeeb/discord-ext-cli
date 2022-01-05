@@ -8,7 +8,7 @@ with open("README.md", "r") as f:
 	long_desc = f.read()
 
 setup(
-name="discord.wrapper",
+name="discord.ext.cli",
 author="Alex Hutz",
 author_email="frostiiweeb@gmail.com",
 keywords=["discord"],
@@ -17,7 +17,7 @@ packages=['discord.ext.cli'],
 license='MIT',
 long_description=long_desc,
 long_description_content_type="text/markdown",
-description="An API wrapper for discord.",
+description="A CLI to talk through console.",
 install_requires=['aiohttp>=3.7.3', "discord.py>=1.7.3", "waiting"],
 python_requires='>=3.7.0',
 project_urls={
