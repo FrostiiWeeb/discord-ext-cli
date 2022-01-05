@@ -2,7 +2,7 @@ import discord, typing
 from discord.ext import commands
 
 class CLIChannel():
-    def __init__(self, channel_id, bot : typing.Any[typing.Union[commands.Bot, discord.AutoShardedClient, commands.AutoShardedBot]] = None):
+    def __init__(self, channel_id, bot : typing.Union[commands.Bot, discord.AutoShardedClient, commands.AutoShardedBot] = None):
         self.data : typing.Any[discord.TextChannel] = None
         self.bot = bot
         self.channel_id = channel_id
