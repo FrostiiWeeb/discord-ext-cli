@@ -13,6 +13,6 @@ class CLIChannel():
             data = await self.bot.fetch_channel(self.channel_id)
         return data
 
-    async def send(self, message : typing.Any[str] = None, **options):
+    async def send(self, message : typing.AnyStr = None, **options):
         self.data = await self.try_channel()
         return await self.data.send(message, **options)

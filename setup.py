@@ -18,7 +18,7 @@ license='MIT',
 long_description=long_desc,
 long_description_content_type="text/markdown",
 description="An API wrapper for discord.",
-install_requires=['aiohttp>=3.7.3', "discord.py>=1.7.3"],
+install_requires=['aiohttp>=3.7.3', "discord.py>=1.7.3", "waiting"],
 python_requires='>=3.7.0',
 project_urls={
 
